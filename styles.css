@@ -1,0 +1,60 @@
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+   /* filter: drop-shadow(10px 10px 4px #00000026); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding-top: 10vh;
+    margin: 0 1rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+h1 {
+    font-family: "Julius Sans One", sans-serif;
+}
+
+h2 {
+    font-family: "Italiana", sans-serif;
+}
+
+/* Header Menu */
+
+.header-image {
+    display: flex;
+    justify-content: center;
+}
+
+.header-image img {
+object-fit: cover;
+    width: 70vw;
+    height: 30vh;
+}
+
+.header-nav {
+    width: 70vw;
+    margin: 0 auto;
+    background-color: #fff;
+    filter: drop-shadow(10px 10px 4px #00000026);
+
+}
+
+.nav-links {
+    font-family: "Italiana", sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
