@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script defer src="/script.js"></script>
+        <script
+      src="https://kit.fontawesome.com/aa01c91341.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/mediaqueries.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Italiana&family=Julius+Sans+One&family=Palanquin:wght@100;200;300;400;500;600;700&family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Embla</h1>
-    <h1>Dermatologisk Kosmetisk Sykepleier</h1>
-    <section class="header">
-    <div class="header-image">
-    <img src="/images/Header-rosa-rafael.jpg" alt="Image of a woman getting a facial from Unsplash">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Italiana&family=Julius+Sans+One&family=Palanquin:wght@100;200;300;400;500;600;700&family=Ysabeau+SC:wght@1..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logo">
+        <h1>Embla</h1>
+        <h2>Dermatologisk Kosmetisk Sykepleier</h2>
     </div>
-    <div class="header-nav">
-    <ul class="nav-links">
-        <li><a href="#booking">Booking</a></li>
-        <li><a href="#about">Om meg</a></li>
-        <li><a href="#treatments">Behandlinger</a></li>
-        <li><a href="#pricelist">Prisliste</a></li>
-        <li><a href="#socialmedia">Sosiale medier</a></li>
-        <li><a href="#gallery">Galleri</a></li>
-      </ul>
-</div>
-</section>
-</body>
+    <section class="header">
+      <div class="header-image">
+        <img
+          src="/images/Header-rosa-rafael.jpg"
+          alt="Image of a woman getting a facial from Unsplash"
+        />
+      </div>
+      <div class="header-nav">
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <ul class="nav-links">
+            <li><a href="#booking">Booking</a></li>
+            <li><a href="#about">Om meg</a></li>
+            <li><a href="#treatments">Behandlinger</a></li>
+            <li><a href="#pricelist">Prisliste</a></li>
+            <li><a href="#socialmedia">Sosiale medier</a></li>
+            <li><a href="#gallery">Galleri</a></li>
+          </ul>
+        </nav>
+    
+        <!-- Hamburger Menu -->
+        <nav id="hamburger-nav">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <ul>
+                <li><a href="#booking" onclick="toggleMenu()">Booking</a></li>
+                <li><a href="#about" onclick="toggleMenu()">Om meg</a></li>
+                <li><a href="#treatments" onclick="toggleMenu()">Behandlinger</a></li>
+                <li><a href="#pricelist" onclick="toggleMenu()">Prisliste</a></li>
+                <li><a href="#socialmedia" onclick="toggleMenu()">Sosiale medier</a></li>
+                <li><a href="#gallery" onclick="toggleMenu()">Galleri</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </body>
 </html>
