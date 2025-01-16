@@ -1,8 +1,20 @@
+@media (min-width: 800px) {
+
+    /* Booking */
+    .image-booking img {
+        width: 400px;
+        height: 400px;
+    
+    }
+    
+}
+
 @media (min-width: 1000px) {
 section {
     padding-top: 5vh;
 }
 
+/* Header */
 .header-image img {
     width: 70vw;
     height: 40vh;
@@ -15,7 +27,17 @@ section {
   .logo {
     padding: 50px;
   }
+
+  /* Booking */
+
+.booking-containers {
+    justify-content: space-evenly;
+    max-width: 1500px;
 }
+
+
+}
+
 
 @media screen and (max-width: 1000px) {
   .desktop-nav {

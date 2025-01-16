@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <script defer src="./script.js"></script>
-        <script
+    <script
       src="https://kit.fontawesome.com/aa01c91341.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="./mediaqueries.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -20,8 +20,8 @@
   </head>
   <body>
     <div class="logo">
-        <h1>Embla</h1>
-        <h2>Dermatologisk Kosmetisk Sykepleier</h2>
+      <h1>Embla</h1>
+      <h2>Dermatologisk Kosmetisk Sykepleier</h2>
     </div>
     <section class="header">
       <div class="header-image">
@@ -42,7 +42,7 @@
             <li><a href="#gallery">Galleri</a></li>
           </ul>
         </nav>
-    
+
         <!-- Hamburger Menu -->
         <nav id="hamburger-nav">
           <div class="hamburger-menu">
@@ -55,14 +55,40 @@
               <ul>
                 <li><a href="#booking" onclick="toggleMenu()">Booking</a></li>
                 <li><a href="#about" onclick="toggleMenu()">Om meg</a></li>
-                <li><a href="#treatments" onclick="toggleMenu()">Behandlinger</a></li>
-                <li><a href="#pricelist" onclick="toggleMenu()">Prisliste</a></li>
-                <li><a href="#socialmedia" onclick="toggleMenu()">Sosiale medier</a></li>
+                <li>
+                  <a href="#treatments" onclick="toggleMenu()">Behandlinger</a>
+                </li>
+                <li>
+                  <a href="#pricelist" onclick="toggleMenu()">Prisliste</a>
+                </li>
+                <li>
+                  <a href="#socialmedia" onclick="toggleMenu()"
+                    >Sosiale medier</a
+                  >
+                </li>
                 <li><a href="#gallery" onclick="toggleMenu()">Galleri</a></li>
               </ul>
             </div>
           </div>
         </nav>
+      </div>
+    </section>
+    <section id="booking" class="booking">
+      <h3 class="title">Booking</h3>
+      <div class="booking-containers">
+        <div class="sandnes image-booking">
+            <h3 class="location">Sandnes</h3>
+          <img
+            src="./images/Rein-klinikken.jpg"
+            alt="Klinikken lokalisert i Sandnes."
+          />
+          <div class="overlay-text">Reinklinikken</div>
+        </div>
+        <div class="skien image-booking">
+            <h3 class="location">Skien</h3>
+          <img src="./images/theskin.jpg" alt="Klinikken lokalisert i Skien." />
+          <div class="overlay-text">The Skinmedispa</div>
+        </div>
       </div>
     </section>
   </body>
