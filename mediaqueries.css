@@ -1,11 +1,24 @@
 @media (min-width: 800px) {
 
+  .title {
+    padding-top: 200px;
+}
+
     /* Booking */
     .image-booking img {
         width: 400px;
         height: 400px;
     
     }
+    
+    /* About me */
+    .about-div img {
+      width: 500px;
+    }
+
+    .about-div {
+      max-width: 800px;
+      }
     
 }
 
@@ -16,16 +29,16 @@ section {
 
 /* Header */
 .header-image img {
-    width: 70vw;
-    height: 40vh;
+    width: 80vw;
+    height: 50vh;
   }
   
   .header-nav {
-    width: 70vw;
+    width: 80vw;
   }
 
   .logo {
-    padding: 50px;
+    padding: 20px;
   }
 
   /* Booking */
